@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中状态下的效果-->
+    <item android:state_selected="true">
+        <shape>
+            <!-- 背景颜色的填充-->
+            <solid android:color="@color/color_e5e5e5"/>
+        </shape>
+    </item>
+    <!-- 点击状态下的效果-->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 背景颜色的填充-->
+            <solid android:color="@color/color_e5e5e5"/>
+        </shape>
+    </item>
+    <!-- 非点击状态下的效果-->
+    <item android:state_selected="false">
+        <shape>
+            <!-- 背景颜色的填充-->
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</selector>

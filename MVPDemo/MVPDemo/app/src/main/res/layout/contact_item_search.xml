@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_preference_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/item_selectbox"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:paddingRight="@dimen/dp_12"
+                android:paddingTop="@dimen/dp_10"
+                android:singleLine="true"
+                android:textColor="@color/color_8f8f8f"
+                android:textSize="@dimen/dp_14" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:paddingBottom="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_12"
+                android:singleLine="true"
+                android:textColor="@color/color_8f8f8f"
+                android:textSize="@dimen/dp_13" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:background="@color/dividing_line_1"></View>
+</LinearLayout>

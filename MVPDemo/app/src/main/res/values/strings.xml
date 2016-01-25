@@ -1,0 +1,663 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MVPDemo</string>
+    <string name="action_settings">Settings</string>
+    <!-- 不需要中文化的内容-->
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_send_mail">SendMailActivity</string>
+    <string name="ssl">SSL</string>
+    <string name="nomore_data">no more mail</string>
+    <string name="empty_mialbox">Go out and enjoy same fresh air!</string>
+    <string name="delete_bundle">Delete all mails in bundle</string>
+    <string name="show_unread">Unread Only</string>
+    <string name="conversation_messages_unread">%1$s more conversation messages(%2$s unread)</string>
+    <string name="conversation_messages_unread_special">%1$s more conversation messages</string>
+    <string name="all_unread">Mark All unread</string>
+
+    <!-- 国际化文档的地址 -->
+    <!-- https://docs.google.com/spreadsheets/d/1A0Blxv51wA8x1KFRrY385k3AuXmn2wn1tnXfJNwt4HM/edit?usp=drive_web -->
+
+    <!-- 国际化文档的“通用及初始化”页面-->
+    <!-- 通用 -->
+    <string name="Mail">Mail</string>
+    <string name="Chat">Chat</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Me">Me</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Done">Done</string>
+    <string name="Delete">Delete</string>
+    <string name="Close">Close</string>
+    <string name="Undo">Undo</string>
+    <string name="Search">Search</string>
+    <string name="MyProfile">My Profile</string>
+
+    <!-- 初始化：第一次打开app的页面 -->
+    <string name="AddEmailAccount">Add Email Account</string>
+    <string name="Login">Login</string>
+    <string name="ViewPagerTitleOne">Manage your email quickly and efficiently1</string>
+    <string name="ViewPagerTitleTwo">Manage your email quickly and efficiently2</string>
+    <string name="ViewPagerTitleThree">Manage your email quickly and efficiently3</string>
+    <string name="ViewPagerTitleFour">Manage your email quickly and efficiently4</string>
+
+    <!-- 初始化：跳转到Gmail登录 -->
+    <string name="AddEmail">Add Email</string>
+    <string name="SetupManually">Setup Manually</string>
+    <string name="Account">Account</string>
+    <string name="Server">Server</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Port">Port</string>
+    <string name="IncomingMailServer">Incoming Mail Server</string>
+    <string name="OutgoingMailServer">Outgoing Mail Server</string>
+
+    <!-- 注册 -->
+    <string name="ThisEmailHasAlreadyBeenRegisteredPleaseLogin">This email has already been registered，please login.</string>
+    <string name="RegisteredSuccessfully">Registered  successfully</string>
+    <string name="ClickAndSetYourAvatar">Click the picture to set your avatar</string>
+    <string name="SkipSetItLater">Skip, set it later</string>
+    <string name="Uploading">Uploading</string>
+    <string name="ThisDeviceNotSupportTheCropAction">This device doesn\&#39;t support the crop action!</string>
+    <string name="ThisEmailHasAlreadyBeenRegistered">This email has already been registered.</string>
+    <string name="EmailIsBoundToOtherAccounts">is bound to other accounts so it will be removed from your email account once logged in.</string>
+    <string name="EmailsAreBoundToOtherAccounts">are bound to other accounts so they will be removed from your email account once logged in.</string>
+    <string name="SignUp">Sign up</string>
+    <string name="AlreadyHaveAnAccount">Already have an account</string>
+    <string name="And">And</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="TermsOfService">Terms of Service</string>
+    <string name="ByClickingSignUpYouAreAgreeing">By clicking Sign up, you are agreeing to our</string>
+    <string name="ChooseAnEmailAsYourRushID">Choose an email as your Rush ID</string>
+    <string name="SigningUp">Signing up</string>
+    <string name="NameCanNotBeEmpty">Name can not be empty</string>
+
+    <!-- 登录 -->
+    <string name="AccountOrPasswordIncorrect">account or password incorrect</string>
+    <string name="PasswordRequired">password required</string>
+    <string name="AtLeast6Characters">at least 6 characters</string>
+    <string name="EmailsThatFailedToSendOrSyncAndLogOut">Emails that failed to send or sync might be lost if you log out now. Are you sure about this?</string>
+    <string name="SureLogOut">Sure, log out.</string>
+    <string name="LoginToRush">Login to Rush</string>
+    <string name="LoggingIn">Logging in</string>
+    <string name="LoginSuccessfully">Login successfully</string>
+    <string name="FailedToLogOut">Failed to log out</string>
+
+    <!-- 错误提示 -->
+    <string name="UnableToAddThisEmail">Unable to add this email</string>
+    <string name="EmailBoundedToAnotherRushID">This email has already been bound to another Rush ID. Unbound the original Rush ID to continue..</string>
+    <string name="EmailHasBeenSignUp"> Email has been SignUp</string>
+
+    <!-- 国际化文档的“Mail”页面-->
+    <!-- 邮件列表 -->
+    <string name="Inbox">Inbox</string>
+    <string name="Drafts">Drafts</string>
+    <string name="Sent">Sent</string>
+    <string name="AllMail">All Mail</string>
+    <string name="Trash">Trash</string>
+    <string name="Spam">Spam</string>
+    <string name="AllInboxes">All Inboxes</string>
+    <string name="Today">Today</string>
+    <string name="Yesterday">Yesterday</string>
+    <string name="ThisMonth">This Month</string>
+    <string name="All">ALL</string>
+    <string name="Unread">UNREAD</string>
+    <string name="Important">IMPORTANT</string>
+    <string name="Promos">Promos</string>
+    <string name="Social">Social</string>
+    <string name="Updates">Updates</string>
+    <string name="Finance">Finance</string>
+    <string name="Purchases">Purchases</string>
+    <string name="Travel">Travel</string>
+    <string name="Forums">Forums</string>
+    <string name="SendingFailed">Sending Failed</string>
+    <string name="CustomFolder">Custom Folder</string>
+    <string name="CurrentEmail">Current email</string>
+    <string name="Current">Current</string>
+    <string name="LoadMore">Load more …</string>
+    <string name="NoMoreMails">No more mails</string>
+    <string name="DeleteAllIn">Delete all in  %1$s</string>
+    <string name="NMoreConversationMessages">%1$s more conversation messages</string>
+    <string name="NUnread">%1$s unread</string>
+
+    <!-- 空箱提示文字 -->
+    <string name="YourInboxIsEmpty">Your Inbox is empty. </string>
+    <string name="IncomingMailsWillBeStoredHere">Incoming mails will be stored and sorted here. </string>
+    <string name="AllIncomingMailsWillBeStored">All incoming mails will be stored and sorted here.</string>
+    <string name="YourSentboxIsEmpty">Your Sentbox is empty. </string>
+    <string name="SentMailsWillBeStored">Your sent mails will be stored here.</string>
+    <string name="DraftsIsEmpty">Drafts is empty. </string>
+    <string name="UnfinishedMailsWillBeStored">Your unfinished mails will be stored here.</string>
+    <string name="NoSpam">No spam.</string>
+    <string name="YourTrashIsEmpty">Your Trash is empty.</string>
+    <string name="DeletedMailsWillBeStored">Deleted mails will be stored here.</string>
+    <string name="AllInboxesAreEmpty">All your inboxes are empty. </string>
+    <string name="IncomingMailsWillBeStored">Incoming mails will be stored and sorted here.</string>
+
+    <!-- 阅读邮件及操作-->
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="Cc">Cc</string>
+    <string name="Bcc">Bcc</string>
+    <string name="CcBccColon">Cc/Bcc:</string>
+    <string name="Subject">Subject</string>
+    <string name="ToColon">To:</string>
+    <string name="CcColon">Cc:</string>
+    <string name="BccColon">Bcc:</string>
+    <string name="SubjectColon">Subject:</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="NoReceiver">No Receiver</string>
+    <string name="NoSubject">No Subject</string>
+    <string name="AddStar">Add Star</string>
+    <string name="RemoveStar">Remove Star</string>
+    <string name="MarkAllRead">Mark all Read</string>
+    <string name="MarkAsRead">Mark as Read</string>
+    <string name="MarkAsUnread">Mark as Unread</string>
+    <string name="Archive">Archive</string>
+    <string name="MoveTo">Move to …</string>
+    <string name="ReportSpam">Report Spam</string>
+    <string name="NotSpam">Not Spam</string>
+    <string name="Reply">Reply</string>
+    <string name="ReplyAll">Reply all</string>
+    <string name="Forward">Forward</string>
+    <string name="OpenInOtherApplications">Open in other applications</string>
+    <string name="FailedToLoadPicture">Opps, failed to load picture</string>
+    <string name="SelectTextToCopy">Select text to copy.</string>
+    <string name="Reload">Reload</string>
+
+    <!-- 操作及其他提示 -->
+    <string name="Error">Error</string>
+    <string name="SpamTitle">This email address will be blocked. All mails from it will come to Spam directly.</string>
+    <string name="SpamIt">Spam it.</string>
+    <string name="UnspamTitle">This email address will be unblocked. All mails from it will come to Inbox directly.</string>
+    <string name="UnspamIt">Unspam it.</string>
+
+    <string name="OneMailSpammed">1 mail spammed</string>
+    <string name="NMailsSpammed">%1$s mails spammed</string>
+    <string name="OneMailUnspammed">1 mail unpammed</string>
+    <string name="NMailsUnspammed">%1$s mails spammed</string>
+    <string name="OneMailMoved">1 mail moved</string>
+    <string name="NMailsMoved">%1$s mails moved</string>
+    <string name="OneMailMarkedRead">1 mail marked read</string>
+    <string name="NMailsMarkedRead">%1$s mails marked read</string>
+    <string name="OneMailMarkedUnread">1 mail marked unread</string>
+    <string name="NMailsMarkedUnread">%1$s mails marked unread</string>
+    <string name="OneMailDeleted">1 mail deleted</string>
+    <string name="NMailsDeleted">%1$s mails deleted</string>
+    <string name="OneMailArchived">1 mail archived</string>
+    <string name="NMailsArchived">%1$s mails archived</string>
+    <string name="OneMail1ConversationMoved">1 mail + 1 conversation moved</string>
+    <string name="NMailsNConversationsMoved">%1$s mails + %2$s conversations moved</string>
+
+
+    <string name="Archived"> archived</string>
+    <string name="Conversation"> conversation </string>
+    <string name="Conversations"> conversations </string>
+    <string name="Deleted"> deleted</string>
+    <string name="Moved"> moved</string>
+    <string name="MailLowerCase"> mail </string>
+    <string name="MailsLowerCase"> mails </string>
+    <string name="MarkedRead"> marked read</string>
+    <string name="MarkedUnread"> marked unread</string>
+    <string name="Spammed"> spammed</string>
+    <string name="Plus"> + </string>
+
+    <!-- 撰写/编辑/转发/回复邮件 -->
+    <string name="DeleteDraft">Delete Draft</string>
+    <string name="SaveDraft">Save Draft</string>
+    <string name="DeleteChanges">Delete Changes</string>
+    <string name="TakeAPhoto">Take a Photo</string>
+    <string name="ChooseFromPhotos">Choose from Photos</string>
+    <string name="Photos">Photos</string>
+    <string name="CameraRolls">Camera Rolls</string>
+    <string name="Original">Original</string>
+    <string name="OriginalSize">Original(%1$s)</string>
+    <string name="Albums">Albums</string>
+    <string name="Remove">Remove</string>
+    <string name="RemoveThisAttachment">Remove this attachment?</string>
+    <string name="Send">Send</string>
+    <string name="MessageText">Message text</string>
+    <string name="SentFromRush">Sent from Rush</string>
+    <string name="IncorrectEmailAddress">Incorrect email address</string>
+    <string name="OK">OK</string>
+
+    <!-- 编辑模式 -->
+    <string name="SelectAll">Select All</string>
+    <string name="SelectNone">Select None</string>
+    <string name="Move">Move</string>
+    <string name="Empty">Empty</string>
+    <string name="DeleteForever">Delete Forever</string>
+    <string name="Edit">Edit</string>
+    <string name="More">More</string>
+    <string name="Save">Save</string>
+
+    <!-- 发送失败 -->
+    <string name="MailSaveToDrafts">Mail has been saved to Drafts</string>
+
+    <!-- 邮件搜索 -->
+    <string name="AllResult">All Result</string>
+    <string name="NoMailResult">No Result</string>
+    <string name="SearchOnServer">Search on server</string>
+    <string name="Loading">Loading</string>
+
+    <!-- 附件 -->
+    <string name="SaveToAlbum">Save to Album</string>
+    <string name="UnsupportedFileType">Unsupported file type. Try open with others apps by clicking on bottom bar.</string>
+    <string name="OpenIn">Open in</string>
+    <string name="AttachmentIsMentionedButNoFileAttached">\&quot;attachment\&quot; is mentioned，but no file is attached.</string>
+    <string name="SendAnyway">Send anyway</string>
+    <string name="NoFilesAttached">No files attached</string>
+    <string name="Attachment">attachment</string>
+
+    <!-- 网络异常 -->
+    <string name="NetworkNotAvailable">Network not available</string>
+
+    <!-- 国际化文档“Chat”页面 -->
+    <!-- Chat List Item的左滑操作 -->
+    <string name="Top">top</string>
+    <string name="RemoveTop">Remove Top</string>
+
+    <!-- Chat List上显示的信息类型 -->
+    <string name="Draft">Draft</string>
+    <string name="Audio">Audio</string>
+    <string name="Image">Image</string>
+    <string name="File">File</string>
+
+    <!-- 对话界面 -->
+    <string name="SelectContact">Select Contact</string>
+    <string name="Copy">Copy</string>
+    <string name="ForwardTo">Forward to</string>
+    <string name="SlideLeftToCancel">Slide left to cancel</string>
+    <string name="HoldToRecordReleaseToSend">Hold to record, release to send</string>
+    <string name="Camera">Camera</string>
+    <string name="NameCard">Name Card</string>
+    <string name="IsSendNameCardToCurrentChat">Send name card of %1$s to current chat?</string>
+    <string name="NoMoreChatHistory">No more chat history</string>
+    <string name="EnableRushAccessToMobileContactsOnYourPhone">Enable Rush access to mobile contacts via “Settings” -&gt; “Privacy” -&gt; “Microphone“ on your iPhone</string>
+
+    <!-- 聊天相关设置 -->
+    <string name="Options">Options</string>
+    <string name="MuteNotifications">Mute Notifications</string>
+    <string name="AddMember">Add Member</string>
+    <string name="SearchHistory">Search History</string>
+    <string name="GroupName">Group Name</string>
+    <string name="SaveToContacts">Save to Contacts</string>
+    <string name="SharedFiles">Shared files</string>
+    <string name="TurnOnSpeaker">Turn on Speaker</string>
+    <string name="TurnOffSpeaker">Turn off Speaker</string>
+    <string name="SpeakerOn">Speaker On</string>
+    <string name="SpeakerOff">Speaker Off</string>
+
+    <!-- 邀请/拉黑等各种提示文字 -->
+    <string name="YouHaveAcceptedFriendRequestPrompts">You’ve accepted %1$s’s friend request. Now start chatting!</string>
+    <string name="IHaveAcceptedFriendRequestPrompts">I’ve accepted your friend request. Now let’s chat!</string>
+    <string name="GoAndChatWithSomeFriends">Go and chat with some friends!</string>
+    <string name="NotYourFriendPrompts">%1$s has not added you as a contact so she/he won’t be able to receive your messages. Send a friend request now.</string>
+    <string name="RefuseToReceiveYourMessagePrompts">This person refuses to receive your messages. your messages.</string>
+    <string name="SomeoneNotRushUsersPrompts">%1$s dose not have Rush.All messages will be send to him via emails.</string>
+    <string name="ThesePeopleNotRushUsersPrompts">%1$s do not have Rush. All messages will be send to them via emails.</string>
+
+    <!-- 国际化文档“Contacts”页面 -->
+    <!-- Contacts List -->
+    <string name="Groups">Groups</string>
+    <string name="VipLowerCase">VIP</string>
+    <string name="EmailContacts">Email Contacts</string>
+    <string name="FriendRequests">Friend Requests</string>
+    <string name="AddFriends">Add Friends</string>
+    <string name="AddGroups">Add Groups</string>
+    <string name="OneContact">1 contact</string>
+    <string name="NContacts">%1$s contacts</string>
+    <string name="OneGroup">1 group</string>
+    <string name="NGroups">%1$s groups</string>
+    <string name="WillBeDeletedFromYourContacts">%1$s will be deleted from your contacts.</string>
+    <string name="EmailIsBoundToAnotherAccount">%1$s is bound to another account. Would you like to add him/her to your contact?</string>
+    <string name="Recents">Recents</string>
+
+    <!-- Email Contacts -->
+    <string name="Invite">Invite</string>
+    <string name="ReInvite">Re-invite</string>
+    <string name="ImportFromPhoneContacts">Import from phone contacts</string>
+    <string name="Accept">Accept</string>
+    <string name="Added">Added</string>
+    <string name="SaveToEmailContacts">Save to Email Contacts</string>
+    <string name="ImportMobileContactsSuccessfully">Import mobile contacts successfully</string>
+    <string name="WillBeDeletedFromYourEmailContacts">%1$s will be deleted from your email contacts.</string>
+    <string name="EnableRushAccessToMobileContacts">Enable Rush access to mobile contacts via “settings” -&gt; “Privacy” -&gt; “Contacts“ on your iPhone </string>
+
+
+    <!-- 空列表提示性文字 -->
+    <string name="YourContactsIsEmpty.">Your Contacts is empty.</string>
+    <string name="InviteOrAddNewFriend">Invite friends from Email Contacts or add a new friend.</string>
+    <string name="YourEmailContactsIsEmpty">Your Email Contacts is empty.</string>
+    <string name="ThereIsNoGroupYet">There is no group yet.</string>
+    <string name="YouCanCreateANewGroup">You can create a new one.</string>
+    <string name="NoNewRequests">No new requests.</string>
+
+    <!-- 添加好友 -->
+    <string name="Next">Next</string>
+    <string name="EmailAddress">Email address</string>
+    <string name="InputYourFriendsEmailAddress">Input your friend\&#39;s email address</string>
+    <string name="YourFriendNotHaveARushID">Sorry, your friend might not have a Rush ID yet.</string>
+    <string name="ConfirmEmailAddressAndInviteYourFriend">Please confirm the email address and invite your friend to Rush now!</string>
+    <string name="YourNetworkIsSlow">Oops, your network is slow.</string>
+    <string name="CheckYourInternetConnection">Please check your internet connection or try again later.</string>
+    <string name="UnableToConnect">Unable to Connect</string>
+    <string name="Add">Add</string>
+    <string name="FriendVerification">Friend Verification</string>
+    <string name="IdentifyYourselfToYourFriend">Identify yourself to your friend</string>
+    <string name="IWantToInviteYouToJoinRush"><Data><![CDATA[Hey it\'s %1$s. I want to invite you to join <font color="#48BAF3"><b>Rush</b></font> with me. We can email and chat much more easily here.]]></Data></string>
+    <string name="InvitationIsSent">Invitation is sent</string>
+    <string name="ThisInvitationHasBeenSentTo">This invitation has been sent to %1$s</string>
+    <string name="SentSuccessfully">Sent successfully</string>
+
+    <!--Contact Profile-->
+    <string name="Profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="Notes">Notes</string>
+    <string name="Alias">Alias</string>
+    <string name="VipContact">VIP</string>
+    <string name="SetNotes">Set Notes</string>
+    <string name="Block">Block</string>
+    <string name="EditAlias">Edit alias</string>
+    <string name="EmailHistory">Email History</string>
+    <string name="ContactsProfileBlockContent">You\&#39;ll not receive any chat message from the blocked contacts.</string>
+    <string name="Fullname">Fullname</string>
+    <string name="ShareHerNameCard">Share her name card</string>
+    <string name="ShareHisNameCard">Share his name card</string>
+    <string name="ShareHerOrHisNameCard">Share s/he name card</string>
+
+    <!--Group相关-->
+    <string name="MailToAll">Mail to All</string>
+    <string name="AddMembers">Add members</string>
+    <string name="Ok">OK</string>
+    <string name="GroupChat">Group Chat</string>
+    <string name="OneMember">1 member</string>
+    <string name="NMembers">%1$s members</string>
+    <string name="ShowAllMembers">show all %1$s members</string>
+    <string name="InvitedToTheGroupChat">%1$s invited %2$s to the Group Chat %3$s</string>
+    <string name="InvitedYouToTheGroupChat">%1$s invited you、%2$s to the Group Chat %3$s</string>
+    <string name="RemoveMemberFromGroup">This member will no longer receive messages from this group chat if you remove him/her from this group.</string>
+    <string name="YouDeleteAndQuitThisGroup">You will no longer receive messages from this group chat if you delete and quit this group.</string>
+    <string name="Fold">Fold</string>
+    <string name="StickToTop">Stick to Top</string>
+    <string name="EditGroupName">Edit Group Name</string>
+    <string name="Files">Files</string>
+    <string name="DeleteThisGroup">Delete this group</string>
+    <string name="ThisGroupWillBeDeletedFromYourContacts">This group will be deleted from your contacts.</string>
+    <string name="DeleteAndQuit">Delete and quit</string>
+
+    <!-- Search -->
+    <string name="MembersFromGroup">Members from Group</string>
+    <string name="NoResult">No Result</string>
+    <string name="Friends">Friends</string>
+
+    <!--group profile-->
+    <string name="StickOnTop">Stick on Top</string>
+    <string name="MuteTheNotification">Mute the Notification</string>
+    <string name="SearchChatHistory">Search Chat History</string>
+
+
+    <!-- 国际化文档的“Me”页面-->
+    <!-- 个人设置相关 -->
+    <string name="Gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="PrivateWord">Private</string>
+    <string name="Back">Back</string>
+    <string name="ManageEmailAccounts">Manage Email Accounts</string>
+    <string name="OtherMail">Other Mail</string>
+    <string name="Authorizing">Authorizing</string>
+    <string name="EmailWillBeDeletedFromAccount">This email address will be deleted from the current account, and can be bound again later.</string>
+    <string name="EmailAlias">Email Alias</string>
+    <string name="Signature">Signature</string>
+    <string name="DeleteEmailAccount">Delete Email Account</string>
+    <string name="DeleteEmailFromYourRushAccount">Delete this email from your Rush account?</string>
+    <string name="RegisteredEmailCanNotBeDeleted">Registered email can not be deleted</string>
+    <string name="MaximumStorage">Maximum Storage</string>
+    <string name="Birthday">Birthday</string>
+    <string name="Settings">Settings</string>
+    <string name="UnreadBadge">Unread Badge</string>
+    <string name="EmailSignature">Email Signature</string>
+    <string name="VIP">VIP</string>
+    <string name="None">None</string>
+    <string name="MailInbox">Mail Inbox</string>
+    <string name="AppBadge">App Badge</string>
+    <string name="Disabled">Disabled</string>
+    <string name="EnableOrDisableRushBadgeIcon">Enable or disable Rush Badge icon via “Settings”-&gt;”Notifications” on your iPhone.</string>
+    <string name="Notifications">Notifications</string>
+    <string name="AboutUs">About</string>
+    <string name="Security">Security</string>
+    <string name="FollowUsOnTwitter">Follow us on Twitter</string>
+    <string name="FollowUsOnFaceBook">Follow us on Facebook</string>
+    <string name="RateUs">Rate us</string>
+
+    <string name="BeyondExpectations">Beyond Expectations</string>
+    <string name="RushVersion">Rush V1.0.0</string>
+    <string name="Phone">Phone</string>
+    <string name="EditName">Edit Name</string>
+
+    <!--ME页面设置相关-->
+    <string name="EnableOrDisableRushNotifications">Enable or disable notifications via “Settings”-&gt;”Notifications” on your iPhone.</string>
+    <string name="MailAlert">Mail Alert</string>
+    <string name="ChatAlert">Chat Alert</string>
+    <string name="DoNotDisturb">Do Not Disturb</string>
+    <string name="AllowVIPNotifications">Allow VIP notifications in Do Not Disturb mode</string>
+    <string name="StartsAndEnds">Starts And Ends</string>
+    <string name="Passcode">Passcode</string>
+    <string name="TouchID">Touch ID</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="CurrentPassword">Current Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="Confirm">Confirm</string>
+    <string name="InputYourCurrentPassword">Input current password</string>
+    <string name="AtLeastSixCharacters">At least six characters</string>
+    <string name="ConfirmYourPassword">Confirm your password</string>
+    <string name="DrawAnUnlockPattern">Draw an unlock pattern</string>
+    <string name="DrawThePatternAgain">Draw the pattern again</string>
+    <string name="PasscodeSet">PasscodeSet</string>
+    <string name="LogOutHint">Are you sure to log out?</string>
+    <string name="LogOut">Log out</string>
+
+    <!--Security-->
+    <string name="IncorrectOldPassword">Incorrect password</string>
+    <string name="ThesePasswordsNotMatch">These passwords don\&#39;t match</string>
+    <string name="NewPasswordIsSet">New password is set</string>
+    <string name="SetSuccessfully">Set successfully</string>
+    <string name="ThesePatternsNotMatch">These patterns don\&#39;t match</string>
+    <string name="IncorrectPassword">Incorrect password</string>
+    <string name="ForgetPassword">Forget password</string>
+    <string name="InputAnyEmailAddressThatIsBoundToYourAccount">Input any email address that is bound to your account.</string>
+    <string name="NoAccountFoundPleaseTryAnotherEmailAddress">No account found. Please try another email address.</string>
+    <string name="Submit">Submit</string>
+
+    <!--Notifications-->
+    <string name="Starts">Starts</string>
+    <string name="Ends">Ends</string>
+    <string name="EveryDay">Every Day</string>
+    <string name="NextDay">Next day</string>
+    <string name="Hours">hours</string>
+    <string name="Duration">Duration</string>
+
+    <!--重置密码页面-->
+    <string name="ConfirmPassword">Confirm Password</string>
+
+    <!--date formatters-->
+    <string name="formatterMonthYear">MMMM yyyy</string>
+    <string name="formatterMonth">MMM dd</string>
+    <string name="formatterYear">dd.MM.yy</string>
+    <string name="formatterYearMax">dd.MM.yyyy</string>
+    <string name="chatDate">MMMM dd</string>
+    <string name="chatFullDate">MMMM dd, yyyy</string>
+    <string name="formatterWeek">EEE</string>
+    <string name="formatterDay24H">HH:mm</string>
+    <string name="formatterDay12H">h:mm a</string>
+    <string name="formatDateAtTime">%1$s at %2$s</string>
+
+    <!--messages-->
+    <string name="AttachPhoto">Photo</string>
+    <string name="AttachContact">Contact</string>
+    <string name="AttachDocument">File</string>
+    <string name="AttachAudio">Audio</string>
+    <string name="FromYou">You</string>
+
+    <!--chats view-->
+    <string name="NoChats">No chats yet...</string>
+    <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
+
+    <string name="ClearHistory">Clear history</string>
+    <string name="DeleteChat">Delete and exit</string>
+    <string name="HiddenName">Deleted Account</string>
+    <string name="Recent">RECENT</string>
+
+    <!--button titles-->
+    <string name="Open">Open</string>
+    <string name="Retry">Retry</string>
+    <string name="Set">Set</string>
+
+    <!--photo gallery view-->
+    <string name="ShowAllMedia">Show all media</string>
+    <string name="SaveToGallery">Save to gallery</string>
+    <string name="Of">%1$d of %2$d</string>
+    <string name="Gallery">Gallery</string>
+    <string name="AllPhotos">All Photos</string>
+    <string name="AllVideo">All Videos</string>
+    <string name="NoPhotos">No photos yet</string>
+    <string name="PleaseDownload">Please download media first</string>
+
+    <!--chat view-->
+    <string name="Invisible">invisible</string>
+    <string name="Typing">typing...</string>
+    <string name="IsTyping">is typing...</string>
+    <string name="AreTyping">are typing...</string>
+    <string name="IsRecordingAudio">%1$s is recording audio...</string>
+    <string name="IsSendingPhoto">%1$s is sending photo...</string>
+    <string name="IsSendingVideo">%1$s is sending video...</string>
+    <string name="IsSendingFile">%1$s is sending file...</string>
+    <string name="RecordingAudio">recording audio...</string>
+    <string name="SendingPhoto">sending photo...</string>
+    <string name="SendingVideoStatus">sending video...</string>
+    <string name="SendingFile">sending file...</string>
+    <string name="GotAQuestion">Got a question\nabout Telegram?</string>
+    <string name="ChatTakePhoto">Take photo</string>
+    <string name="ChatGallery">Gallery</string>
+    <string name="ChatLocation">Location</string>
+    <string name="ChatVideo">Video</string>
+    <string name="ChatDocument">File</string>
+    <string name="ChatCamera">Camera</string>
+    <string name="NoMessages">No messages here yet...</string>
+    <string name="ForwardedMessage">Forwarded message</string>
+    <string name="NoRecent">No recent</string>
+    <string name="Message">Message</string>
+    <string name="TypeMessage">Message</string>
+    <string name="ShareMyContactInfo">Share my contact</string>
+    <string name="AddToContacts">Add to contacts</string>
+    <string name="EncryptedPlaceholderTitleIncoming">%s invited you to join a secret chat.</string>
+    <string name="EncryptedPlaceholderTitleOutgoing">You have invited %s to join a secret chat.</string>
+    <string name="EncryptedDescriptionTitle">Secret chats:</string>
+    <string name="EncryptedDescription1">Use end-to-end encryption</string>
+    <string name="EncryptedDescription2">Leave no trace on our servers</string>
+    <string name="EncryptedDescription3">Have a self-destruct timer</string>
+    <string name="EncryptedDescription4">Do not allow forwarding</string>
+    <string name="YouWereKicked">You were removed from this group</string>
+    <string name="YouLeft">You left this group</string>
+    <string name="DeleteThisChat">Delete this chat</string>
+    <string name="SlideToCancel">SLIDE TO CANCEL</string>
+    <string name="SaveToDownloads">Save to downloads</string>
+    <string name="SaveToMusic">Save to music</string>
+    <string name="ShareFile">Share</string>
+    <string name="ApplyLocalizationFile">Apply localization file</string>
+    <string name="UnsupportedAttachment">Unsupported attachment</string>
+    <string name="SetTimer">Set self-destruct timer</string>
+    <string name="ServiceNotifications">Service notifications</string>
+    <string name="GettingLinkInfo">Getting Link Info...</string>
+    <string name="OpenInBrowser">Open in Browser</string>
+    <string name="CopyUrl">Copy URL</string>
+    <string name="SendItems">Send %1$s</string>
+    <string name="OpenUrlAlert">Open url %1$s?</string>
+
+    <!--Alert messages-->
+    <string name="InvalidPhoneNumber">Invalid phone number</string>
+    <string name="CodeExpired">Code expired, please login again</string>
+    <string name="FloodWait">Too many attempts, please try again later</string>
+    <string name="FloodWaitTime">Too many attempts, please try again in %1$s</string>
+    <string name="InvalidCode">Invalid code</string>
+    <string name="InvalidFirstName">Invalid first name</string>
+    <string name="InvalidLastName">Invalid last name</string>
+    <string name="NoPlayerInstalled">You don\'t have a video player, please install one to continue</string>
+    <string name="NoMailInstalled">Please send an email to sms@stel.com and tell us about your problem.</string>
+    <string name="NoHandleAppInstalled">You don\'t have applications that can handle the file type \'%1$s\', please install one to continue</string>
+    <string name="InviteUser">This user does not have Telegram yet, send an invitation?</string>
+    <string name="AreYouSure">Are you sure?</string>
+    <string name="AddToTheGroupTitle">Add %1$s to the group %2$s?</string>
+    <string name="AddToTheGroupForwardCount">Number of last messages to forward:</string>
+    <string name="AddToTheGroup">Add %1$s to the group?</string>
+    <string name="UserAlreadyInGroup">This user is already in this group</string>
+    <string name="ForwardMessagesTo">Forward messages to %1$s?</string>
+    <string name="AreYouSureDeleteAndExit">Are you sure you want to delete and leave the group?</string>
+    <string name="AreYouSureDeleteThisChat">Are you sure you want to delete this chat?</string>
+    <string name="AreYouSureShareMyContactInfo">Are you sure you want to share your contact info?</string>
+    <string name="AreYouSureBlockContact">Are you sure you want to block this contact?</string>
+    <string name="AreYouSureUnblockContact">Are you sure you want to unblock this contact?</string>
+    <string name="AreYouSureDeleteContact">Are you sure you want to delete this contact?</string>
+    <string name="AreYouSureSecretChat">Are you sure you want to start a secret chat?</string>
+    <string name="AreYouSureRegistration">Are you sure you want to cancel registration?</string>
+    <string name="AreYouSureClearHistory">Are you sure you want to clear history?</string>
+    <string name="AreYouSureDeleteMessages">Are you sure you want to delete %1$s?</string>
+
+
+    <string name="LinkCopied">Link copied to clipboard</string>
+
+
+    <!--contacts view-->
+    <string name="Online">online</string>
+
+    <!--edit video view-->
+    <string name="SendingVideo">Sending video...</string>
+
+
+    <!--setting start-->
+
+
+    <!--group info view-->
+    <string name="SharedMedia">Shared Media</string>
+
+    <string name="DeleteAndExit">Delete and leave group</string>
+    <string name="KickFromGroup">Remove from group</string>
+
+    <string name="Unblock">Unblock</string>
+    <string name="UnblockText">Tap and hold on user to unblock.</string>
+    <string name="contact_files_shares">Files And Shares</string>
+
+    <string name="action_add_chat">Add Chat</string>
+    <string name="chat_avatar">Avatar</string>
+
+    <!--permissions-->
+    <string name="PermissionStorage">Rush needs access to your storage so that you can send and save photos, videos, music and other media.</string>
+
+
+    <!--以下是等待国际化补全的内容，暂时放到这里-->
+    <string name="email">Email</string>
+    <string name="YourRushIDIs">Your Rush ID is </string>
+    <string name="PasswordResettingEmailHasBeenSent">A password resetting email has been sent to </string>
+    <string name="ThisEmailHasAlreadyBeenBound">This email has already been bound to another Rush ID</string>
+    <string name="InviteFriends">Invite Friends</string>
+    <!--插入附件提醒-->
+    <string name="IAm">I am </string>
+    <string name="AllowFriendRequest">Allow Friend Request</string>
+    <string name="NewMail">New Mail</string>
+    <string name="NewMailContent">You have new mail</string>
+    <string name="NewMessage">New Message</string>
+
+    <!--新增-->
+    <string name="CreateGroupTitle">GroupChat(%1$d)</string>
+    <string name="ContinuedTime">%1$d hour</string>
+    <string name="ContinuedTimes">%1$d hours</string>
+
+    <!--contact start-->
+    <string name="NewFriendRequest">New Friend Request</string>
+
+    <string name="StartChat">Start Chat</string>
+
+
+</resources>
+
