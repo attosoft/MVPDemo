@@ -61,12 +61,8 @@ public class ContactActivity extends BaseActivity implements IContactListView{
             }
         });
 
-        btnInsertContacts.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                ToastUtil.getInstance().show("setOnClickListener");
-                mContactPresenter.insertContacts();
-            }
+        btnInsertContacts.setOnClickListener(v -> {
+            mContactPresenter.insertContacts();
         });
     }
 

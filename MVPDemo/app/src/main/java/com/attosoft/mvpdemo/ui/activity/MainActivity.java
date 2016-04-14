@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         fab = (FloatingActionButton) findViewById(R.id.fab);
         mList = (RecyclerView) findViewById(R.id.recyclerView);
 
-        mDemoListAdapter = new DemoListAdapter();
+        mDemoListAdapter = new DemoListAdapter(this);
         list.add(DemoListItem.TYPE_CONTACT);
         list.add(DemoListItem.TYPE_MAIL);
         list.add(DemoListItem.TYPE_SETTING);
@@ -95,6 +95,9 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
                 break;
             case DemoListItem.TYPE_MAIL:{
                 Toast.makeText(this,"邮件列表实例",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(this,EmailListActivity.class);
+                startActivity(intent);
             }
                 break;
             case DemoListItem.TYPE_SETTING:{

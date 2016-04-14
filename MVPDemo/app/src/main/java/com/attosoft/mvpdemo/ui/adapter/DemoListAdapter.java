@@ -1,5 +1,7 @@
 package com.attosoft.mvpdemo.ui.adapter;
 
+import android.content.Context;
+import android.support.v7.widget.ContentFrameLayout;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +11,7 @@ import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.ui.adapter.item.DemoListItem;
 import com.attosoft.mvpdemo.ui.view.contact.ItemClickListener;
 import com.attosoft.mvpdemo.ui.viewholder.DemoViewHolder;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +29,11 @@ public class DemoListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         mItemClickListener = listener;
     }
 
+    private Context mContext;
+    public DemoListAdapter(Context context){
+        mContext = context;
+    }
+
     public void setData(List<Integer> data){
         mData.clear();
         mData.addAll(data);
@@ -40,7 +48,7 @@ public class DemoListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             case DemoListItem.TYPE_MAIL:
             case DemoListItem.TYPE_SETTING:
             default:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(DemoViewHolder.LayoutResource,null);
+                itemView = LayoutInflater.from(mContext).inflate(DemoViewHolder.LayoutResource,null);
                 viewHolder = new DemoViewHolder(itemView);
                 break;
         }
