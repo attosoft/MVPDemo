@@ -22,4 +22,8 @@ public class DemoApplication extends Application{
     public static void buildComponentAndInject() {
         sDemoGraph = DemoComponent.Initializer.init(sInstance);
     }
+
+    public static DemoApplication getAppContext(){
+        return sInstance;
+    }
 }

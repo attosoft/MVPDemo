@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.R;
 import com.attosoft.mvpdemo.ui.adapter.BaseContactAdapter;
 import com.attosoft.mvpdemo.ui.adapter.item.BaseContactItem;
@@ -18,6 +17,7 @@ import com.attosoft.mvpdemo.ui.viewholder.contact.ContactGroupViewHolder;
 import com.attosoft.mvpdemo.ui.viewholder.contact.ContactImportViewHolder;
 import com.attosoft.mvpdemo.ui.viewholder.contact.ContactItemViewHolder;
 import com.attosoft.mvpdemo.ui.viewholder.contact.ContactOtherViewHolder;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,23 +45,23 @@ public class ContactAdapter extends BaseContactAdapter {
         View itemView;
         switch (viewType) {
             case ContactItem.TYPE_ACTION:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(ContactOtherViewHolder.LayoutResource, null);
+                itemView = LayoutInflater.from(DemoApplication.getAppContext()).inflate(ContactOtherViewHolder.LayoutResource, null);
                 viewHolder = new ContactOtherViewHolder(itemView);
                 break;
             case ContactItem.TYPE_IMPORT:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(ContactImportViewHolder.LayoutResource, null);
+                itemView = LayoutInflater.from(DemoApplication.getAppContext()).inflate(ContactImportViewHolder.LayoutResource, null);
                 viewHolder = new ContactImportViewHolder(itemView);
                 break;
             case ContactItem.TYPE_CONTACT_FOOT:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(ContactBottomViewHolder.LayoutResource, null);
+                itemView = LayoutInflater.from(DemoApplication.getAppContext()).inflate(ContactBottomViewHolder.LayoutResource, null);
                 viewHolder = new ContactBottomViewHolder(itemView);
                 break;
             case ContactItem.TYPE_GROUP_FLAG:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(ContactGroupViewHolder.LayoutResource, null);
+                itemView = LayoutInflater.from(DemoApplication.getAppContext()).inflate(ContactGroupViewHolder.LayoutResource, null);
                 viewHolder = new ContactGroupViewHolder(itemView);
                 break;
             case ContactItem.TYPE_CONTACT_ITEM:
-                itemView = LayoutInflater.from(App.getAppContext()).inflate(ContactItemViewHolder.LayoutResource, null);
+                itemView = LayoutInflater.from(DemoApplication.getAppContext()).inflate(ContactItemViewHolder.LayoutResource, null);
                 viewHolder = new ContactItemViewHolder(itemView);
                 break;
             case ContactItem.TYPE_SINGLE_FRIEND_REQUEST:
@@ -97,7 +97,7 @@ public class ContactAdapter extends BaseContactAdapter {
     }
 
     private void bindOtherActionViewHolder(ContactItem item, ContactOtherViewHolder otherViewHolder, final int position) {
-        Resources rs = App.getAppContext().getResources();
+        Resources rs = DemoApplication.getAppContext().getResources();
         switch (item.extralType) {
             case ContactItem.TYPE_OTHER_REQUEST:
                 otherViewHolder.mTitle.setText(rs.getString(R.string.FriendRequests));
@@ -130,9 +130,9 @@ public class ContactAdapter extends BaseContactAdapter {
     private void bindBottomViewHolder(ContactBottomViewHolder bottomViewHolder, final int position) {
         Integer size = (Integer) (mData.get(position).object);
         if (size > 1) {
-            bottomViewHolder.mContactCount.setText(String.format(App.getAppContext().getResources().getString(R.string.NContacts), size + ""));
+            bottomViewHolder.mContactCount.setText(String.format(DemoApplication.getAppContext().getResources().getString(R.string.NContacts), size + ""));
         } else {
-            bottomViewHolder.mContactCount.setText(App.getAppContext().getResources().getString(R.string.OneContact));
+            bottomViewHolder.mContactCount.setText(DemoApplication.getAppContext().getResources().getString(R.string.OneContact));
         }
     }
 

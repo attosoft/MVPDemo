@@ -7,8 +7,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.R;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 /**
  * Created by andy on 15/9/24.
@@ -25,7 +25,7 @@ public class ContactGroupViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void setStar(boolean star) {
-        Resources rs = App.getAppContext().getResources();
+        Resources rs = DemoApplication.getAppContext().getResources();
         if (star) {
             mStar.setVisibility(View.VISIBLE);
             LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) mIndex.getLayoutParams();

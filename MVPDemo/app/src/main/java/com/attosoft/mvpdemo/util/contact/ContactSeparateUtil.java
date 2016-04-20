@@ -1,12 +1,10 @@
 package com.attosoft.mvpdemo.util.contact;
 
-import android.text.TextUtils;
-
-import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.R;
 import com.attosoft.mvpdemo.data.entity.Contact;
 import com.attosoft.mvpdemo.ui.adapter.item.BaseContactItem;
 import com.attosoft.mvpdemo.ui.adapter.item.ContactItem;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -71,7 +69,7 @@ public class ContactSeparateUtil {
 
     public ContactItem getRecentContactGroup(){
         ContactItem contactItem = new ContactItem(BaseContactItem.TYPE_GROUP_FLAG);
-        contactItem.displayName = App.getAppContext().getString(R.string.Recent);
+        contactItem.displayName = DemoApplication.getAppContext().getString(R.string.Recent);
         contactItem.sortKey = "recent";
         return contactItem;
     }
@@ -292,7 +290,7 @@ public class ContactSeparateUtil {
         if(xRushContactList.size()>0) {
             ContactItem contactItem = new ContactItem(BaseContactItem.TYPE_GROUP_FLAG);
             contactItem.sortKey = "recent";
-            contactItem.displayName = App.getAppContext().getResources().getString(R.string.Recents);
+            contactItem.displayName = DemoApplication.getAppContext().getResources().getString(R.string.Recents);
             tempSortList.add(contactItem);
         }
         tempSortList.addAll(sortContactWithoutGroup(xRushContactList));
@@ -304,7 +302,7 @@ public class ContactSeparateUtil {
         if(xRushContactList.size()>0) {
             ContactItem contactItem = new ContactItem(BaseContactItem.TYPE_GROUP_FLAG);
             contactItem.sortKey = "recent";
-            contactItem.displayName = App.getAppContext().getResources().getString(R.string.Recents);
+            contactItem.displayName = DemoApplication.getAppContext().getResources().getString(R.string.Recents);
             tempSortList.add(contactItem);
         }
         tempSortList.addAll(sortContactWithoutSort(xRushContactList));

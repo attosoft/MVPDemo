@@ -2,7 +2,7 @@ package com.attosoft.mvpdemo.util;
 
 import android.widget.Toast;
 
-import com.attosoft.mvpdemo.App;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 /**
  * Created by ruyaya on 16/1/24.
@@ -15,7 +15,7 @@ public class ToastUtil {
     }
 
     private ToastUtil() {
-        mToast = Toast.makeText(App.getAppContext(),"",Toast.LENGTH_SHORT);
+        mToast = Toast.makeText(DemoApplication.getAppContext(),"",Toast.LENGTH_SHORT);
     }
 
     private static volatile ToastUtil mInstance = null;

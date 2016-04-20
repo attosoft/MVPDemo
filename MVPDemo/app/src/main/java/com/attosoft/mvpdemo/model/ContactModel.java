@@ -3,8 +3,8 @@ package com.attosoft.mvpdemo.model;
 import android.os.Handler;
 import android.os.Message;
 
-import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.data.entity.Contact;
+import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -82,7 +82,7 @@ public class ContactModel {
     /***
      * 确保是通过UiThread通知更新数据了
      */
-    private Handler mHandler = new Handler(App.getAppContext().getMainLooper()) {
+    private Handler mHandler = new Handler(DemoApplication.getAppContext().getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);

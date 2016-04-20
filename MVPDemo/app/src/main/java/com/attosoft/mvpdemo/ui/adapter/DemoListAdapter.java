@@ -1,17 +1,14 @@
 package com.attosoft.mvpdemo.ui.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.ContentFrameLayout;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.attosoft.mvpdemo.App;
 import com.attosoft.mvpdemo.ui.adapter.item.DemoListItem;
 import com.attosoft.mvpdemo.ui.view.contact.ItemClickListener;
 import com.attosoft.mvpdemo.ui.viewholder.DemoViewHolder;
-import com.attosoft.mvpdemo.util.dragger.DemoApplication;
 
 import java.util.ArrayList;
 import java.util.List;
